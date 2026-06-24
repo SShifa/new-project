@@ -9,7 +9,7 @@ pipeline {
         stage ('SCM') {
             steps {
                 sh 'rm -rf *'
-                sh 'git clone https://github.com/Sudhir-lab-dev/new-project.git'
+                sh 'git clone https://github.com/SShifa/new-project.git'
             }
         }
         stage ('BUILD') {
